@@ -1,0 +1,84 @@
+@media (max-width: 59em) {
+  html {
+    font-size: 8px;
+  }
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 41em) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 29em) {
+  html {
+    font-size: 4px;
+  }
+  .heading-secondary {
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+  }
+  .subscription:link,
+  .more-info:link {
+    padding: 5px;
+    border-radius: 2px;
+  }
+  .heading .card {
+    border-radius: 5px;
+  }
+
+  .card-content-title {
+    font-size: 1.2rem;
+
+    padding: 0.9rem;
+    border-radius: 2px;
+  }
+
+  .card-food-list-item span {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .icon {
+    height: 10px;
+  }
+
+  .pricing-section,
+  .pricing-section-2 {
+    border-radius: 4px;
+  }
+
+  .form input,
+  .form select,
+  .form button {
+    border-radius: 3px;
+    font-size: 1.5rem;
+  }
+
+  input::placeholder,
+  option::placeholder {
+    font-family: inherit;
+    font-size: 1.5rem;
+  }
+
+  /* #info-platform {
+    font-size: 2rem;
+  } */
+
+  .form button {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 19em) {
+  html {
+    font-size: 2px;
+  }
+  .subscription:link,
+  .more-info:link {
+    padding: 3px;
+  }
+}
